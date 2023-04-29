@@ -112,7 +112,6 @@ public class Principal {
 												
 											}else {
 												System.out.println("Produto não cadastrado.");
-												continue;
 											}
 										}while(resposta.equals("S") || (resposta.equals("s")));
 										System.out.println("\nResumo da Venda: "

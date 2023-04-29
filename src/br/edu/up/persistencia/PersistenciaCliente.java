@@ -4,7 +4,7 @@ import br.edu.up.entidades.Cliente;
 
 public class PersistenciaCliente {
 	
-	private static ArrayList<Cliente> listaClientes = new ArrayList<Cliente>();
+	private static ArrayList<Cliente> listaClientes = new ArrayList<>();
 	
 	public static void adicionarCliente (Cliente cliente) {
 		listaClientes.add(cliente);

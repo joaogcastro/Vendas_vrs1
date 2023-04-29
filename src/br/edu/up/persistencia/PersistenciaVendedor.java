@@ -4,7 +4,7 @@ import br.edu.up.entidades.Vendedor;
 
 public class PersistenciaVendedor {
 	
-	private static ArrayList<Vendedor> listaVendedores = new ArrayList<Vendedor>();
+	private static ArrayList<Vendedor> listaVendedores = new ArrayList<>();
 	
 	public static void adicionarVendedor (Vendedor vendedor) {
 		listaVendedores.add(vendedor);
